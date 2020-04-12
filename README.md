@@ -8,15 +8,16 @@ This project is available as an affordable kit or finished product that ships wo
 
 ![Mockup of the converter](https://raw.githubusercontent.com/nazmifr/TinyXT/master/converter_mockup.jpg)
 
-Or you can build it yourself! It's not that hard no worries!
+Or you can build it yourself! It's not that hard, no worries!
 
-Using this piece of gear you'll be able to use a normal PS/2 or sometimes USB keyboard on your old machines such as:
+Using this nifty piece of gear you'll be able to use a normal PS/2 or sometimes USB keyboard on your old machines such as:
 
 - Pentium 1 machines 286 / 386 / ...
 - Amstrad PC1512, PC4086, PC5086 
 - Commodore Amiga 1000 / 2000 Computers
 - Old Bull Micral, Goupil, Olivetti, Thomson, IBM ... computers
 
+Firmware by: https://github.com/kesrut/pcxtkbd (GPL 2.0 License)
 
 
 ## BOM:
