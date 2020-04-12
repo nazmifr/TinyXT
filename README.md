@@ -1,12 +1,12 @@
 # TinyXTConverter
 
-![Mockup of the converter](https://raw.githubusercontent.com/nazmifr/TinyXT/master/converter_mockup.jpg)
-
 Minimal firmware and hardware schematics to build a working tiny PS/2 keyboard converter 
 
 PC -> XT or AT (PS/2 & DIN5)
 
 This project is available as a kit or finished product that ships worldwide:
+
+![Mockup of the converter](https://raw.githubusercontent.com/nazmifr/TinyXT/master/converter_mockup.jpg)
 
 Or you can build it yourself! It's not that hard no worries!
 
