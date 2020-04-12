@@ -39,10 +39,10 @@ You may copy the code directly from [here](https://raw.githubusercontent.com/naz
 (open Tools>Serial Monitor to see the key presses)
 
 Pins for the KB tester:
-D3 = Data
-D8 = Clock
-5V = 5V
-GND = GND
+- D3 = Data
+- D8 = Clock
+- 5V = 5V
+- GND = GND
 
 /!\ This converter uses a microcontroller that doesn't have USB Host capabilities, thus it will be unable to convert an USB keyboard that doesn't have legacy protocol fallback to PS/2 (many commercial USB keyboards have this feature).
 
@@ -64,11 +64,11 @@ The only con of using an arduino is the power consumption that goes from 5mW to 
 
 If you have an USB keyboard, here's the pinout for the converter input:
 
-![](https://raw.githubusercontent.com/nazmifr/TinyXT/master/pinout_usb_PS2_conversion_keyboard.png)
+![USB to PS/2 Pinout](https://raw.githubusercontent.com/nazmifr/TinyXT/master/pinout_usb_PS2_conversion_keyboard.png)
 
 If you have a PS/2 mini-din keyboard, here's the pinout for the input (colors are just indicative and may vary if you salvaged a cable):
 
-![]()
+![PS/2 Pinout Mini-din 6](https://raw.githubusercontent.com/nazmifr/TinyXT/master/PS2-Pinout.jpg)
 
 On the motherboard side, please wire accordingly to your connector or cable:
 
