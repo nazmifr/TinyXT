@@ -1,6 +1,9 @@
 # TinyXTConverter
 
-Minimal firmware and hardware schematics to build a working tiny PS/2 keyboard converter 
+Minimal documentation and hardware schematics to build a working tiny PS/2 keyboard converter.
+
+Firmware by: https://github.com/kesrut/pcxtkbd (GPL 2.0 License, see his repo for latest updates, may break the stable and working specific code for Uno, Nano and Tiny)
+
 
 PC -> XT or AT (PS/2 & DIN5)
 
@@ -16,9 +19,6 @@ Using this nifty piece of gear you'll be able to use a normal PS/2 or sometimes 
 - Amstrad PC1512, PC4086, PC5086 
 - Commodore Amiga 1000 / 2000 Computers
 - Old Bull Micral, Goupil, Olivetti, Thomson, IBM ... computers
-
-Firmware by: https://github.com/kesrut/pcxtkbd (GPL 2.0 License)
-
 
 ## BOM:
 - Arduino (eg: Nano) or ATTiny85 + IC Socket (ATTiny45 may be compatible)
