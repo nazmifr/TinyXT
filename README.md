@@ -107,6 +107,8 @@ Pins
 
 # Tutorials for the newbie
 
+Configuring the proper board and com_port ([Windows]() [Linux]())
+Installing new board definitions
 Etching a PCB
 Setting up the Arduino IDE
 Installing an arduino library
