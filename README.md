@@ -47,67 +47,55 @@ There is a dependency which is the ```PS2Keyboard.h``` library.
 
 You can then test that the communication is occuring with the script ```PS-2_Tester.ino``` 
 
+You may copy the code directly from [here](https://raw.githubusercontent.com/nazmifr/TinyXT/master/PS-2_Tester.ino)
+
 (open Tools>Serial Monitor to see the key presses)
 
-You may copy directly from [here]():
-```
-#include <PS2Keyboard.h>
-
-const int DataPin = 8;
-const int IRQpin =  3;
-
-PS2Keyboard keyboard;
-
-void setup() {
-  delay(1000);
-  keyboard.begin(DataPin, IRQpin);
-  Serial.begin(9600);
-  Serial.println("Keyboard Test:");
-}
-
-void loop() {
-  if (keyboard.available()) {
-    
-    // read the next key
-    char c = keyboard.read();
-    
-    // check for some of the special keys
-    if (c == PS2_ENTER) {
-      Serial.println();
-    } else if (c == PS2_TAB) {
-      Serial.print("[Tab]");
-    } else if (c == PS2_ESC) {
-      Serial.print("[ESC]");
-    } else if (c == PS2_PAGEDOWN) {
-      Serial.print("[PgDn]");
-    } else if (c == PS2_PAGEUP) {
-      Serial.print("[PgUp]");
-    } else if (c == PS2_LEFTARROW) {
-      Serial.print("[Left]");
-    } else if (c == PS2_RIGHTARROW) {
-      Serial.print("[Right]");
-    } else if (c == PS2_UPARROW) {
-      Serial.print("[Up]");
-    } else if (c == PS2_DOWNARROW) {
-      Serial.print("[Down]");
-    } else if (c == PS2_DELETE) {
-      Serial.print("[Del]");
-    } else {
-      
-      // otherwise, just print all normal characters
-      Serial.print(c);
-    }
-  }
-}
-```
+Pins for the KB tester:
+D3 = Data
+D8 = Clock
+5V = 5V
+GND = GND
 
 /!\ This converter uses a microcontroller that doesn't have USB Host capabilities, thus it will be unable to convert an USB keyboard that doesn't have legacy protocol fallback to PS/2 (many commercial USB keyboards have this feature).
 
-See this project for an USB to AT Keyboard converter. (it does USB -> Apple ADB as well :p)
+See [this]() project for an USB to AT Keyboard converter. (it does USB -> Apple ADB as well :p)
+
+Tested on Arduino Nano. Adapt accordingly.
+
+Numlock and Capslock are not implemented on this test script, no worries!
 
 # Arduino prototype
 
+Once you've tested your keyboard, you can take it to the next level: creating a prototype converter. Considering the price of an arduino these days (<5€) this is a perfectly okay solution compared to the converters currently available that cost between 25-30€ for less functionality (the arduino can be reused in another project)
+
+I strongly advise reusing old connectors for the build as well as avoiding to use a breadboard, flying wire mounting is perfectly fine for such a low voltage, low current, low speed project.
+
+The only con of using an arduino is the power consumption that goes from 5mW to 150mW, it should be fine in most cases but for some really old computers, a more finely engineered setup might be preferable.
+
+
+
 # Embedded active converter
+
+You want to build your own version of TinyXT, well you CAN! (you can even sell them if you want to!)
+
+## BOM
+- Attiny85
+- PCB
+- DIN5 or minidin6 male connector (or cable, can be salvaged from old electronics)
+- minidin6 or USB female connector (can be salvaged)
+- DIP8 IC socket
+
+- USB to Serial converter (CH340, FTDI, ...), must support 5V Levels such as the advertised CH340
+- Some female-female jumper leads
+
+## Programming the attiny
+You need to install the board definitions for the AtTiny chip.
+
+Then please download
+
+Pins
+
 
 # Tutorials for the newbie
 
