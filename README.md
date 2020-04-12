@@ -17,19 +17,6 @@ Using this piece of gear you'll be able to use a normal PS/2 or sometimes USB ke
 - Commodore Amiga 1000 / 2000 Computers
 - Old Bull Micral, Goupil, Olivetti, Thomson, IBM ... computers
 
-Made possible by:
-
-[techpaul's ps/2 advanced library](https://github.com/techpaul/PS2KeyAdvanced)
-
-[PJRC's ps/2 library](https://www.pjrc.com/teensy/td_libs_PS2Keyboard.html),
-
-[djsadeepa's instructables on interfacing a PS/2 keyboard and an arduino](https://www.instructables.com/id/Connect-PS2-Keyboard-to-Arduino/) 
-
-[Pedro Umbelino Hackaday article on the old PIC solution](https://hackaday.com/2017/01/21/attoxtkeyboard/)
-
-[kesrut software implementation on Arduino ATMega/ATTiny platform](https://github.com/kesrut/pcxtkbd)
-
-& [Kicad's creators and contributors (CERN)](https://www.kicad-pcb.org/)
 
 
 BOM:
@@ -73,15 +60,23 @@ I strongly advise reusing old connectors for the build as well as avoiding to us
 
 The only con of using an arduino is the power consumption that goes from 5mW to 150mW, it should be fine in most cases but for some really old computers, a more finely engineered setup might be preferable.
 
-# Pins
+# Pins and pinouts
 
 If you have an USB keyboard, here's the pinout for the converter input:
 
-![]()
+![](https://raw.githubusercontent.com/nazmifr/TinyXT/master/pinout_usb_PS2_conversion_keyboard.png)
 
 If you have a PS/2 mini-din keyboard, here's the pinout for the input (colors are just indicative and may vary if you salvaged a cable):
 
 ![]()
+
+On the motherboard side, please wire accordingly to your connector or cable:
+
+Keyboard 5V = VCC = Computer 5V 
+Keyboard Clock = Pin
+Keyboard Data = Pin
+Computer Clock = Pin
+Computer Data = Pin
 
 # Embedded active converter
 
@@ -118,3 +113,22 @@ Attiny keylogger
 Attiny wifi wireless keylogger
 PS/2 TO ADB
 PS/2 TO A
+
+# Made possible by:
+
+[arduino community](https://arduino.orgcc)
+
+[techpaul's ps/2 advanced library](https://github.com/techpaul/PS2KeyAdvanced)
+
+[PJRC's ps/2 library](https://www.pjrc.com/teensy/td_libs_PS2Keyboard.html),
+
+[djsadeepa's instructables on interfacing a PS/2 keyboard and an arduino](https://www.instructables.com/id/Connect-PS2-Keyboard-to-Arduino/) 
+
+[Pedro Umbelino Hackaday article on the old PIC solution](https://hackaday.com/2017/01/21/attoxtkeyboard/)
+
+[kesrut software implementation on Arduino ATMega/ATTiny platform](https://github.com/kesrut/pcxtkbd)
+
+& [Kicad's creators and contributors (CERN)](https://www.kicad-pcb.org/)
+
+also thanks to [pinouts.ru](https://pinouts.ru/InputCables/usb_ps2_mouse_pinout.shtml)
+
