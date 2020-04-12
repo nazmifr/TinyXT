@@ -45,9 +45,11 @@ If you have an USB keyboard, follow this pinout schematic to connect it to the d
 
 There is a dependency which is the ```PS2Keyboard.h``` library.
 
-You can then test that the communication is occuring with the script ```PS-2_Tester.ino```
+You can then test that the communication is occuring with the script ```PS-2_Tester.ino``` 
 
-You may copy directly from here:
+(open Tools>Serial Monitor to see the key presses)
+
+You may copy directly from [here]():
 ```
 #include <PS2Keyboard.h>
 
