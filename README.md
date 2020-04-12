@@ -13,7 +13,7 @@ Using this piece of gear you'll be able to use a normal PS/2 keyboard on your ol
 - Pentium 1 machines 286 / 386 / ...
 - Amstrad PC1512, PC4086, PC5086 
 - Commodore Amiga 1000 / 2000 Computers
-- Old Bull Micral, Olivetti, Thomson, IBM ... computers
+- Old Bull Micral, Goupil, Olivetti, Thomson, IBM ... computers
 
 Made possible by:
 
