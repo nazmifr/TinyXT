@@ -4,7 +4,7 @@ Minimal firmware and hardware schematics to build a working tiny PS/2 keyboard c
 
 PC -> XT or AT (PS/2 & DIN5)
 
-This project is available as a kit or finished product that ships worldwide:
+This project is available as an affordable kit or finished product that ships worldwide: [buy to support my work]()
 
 ![Mockup of the converter](https://raw.githubusercontent.com/nazmifr/TinyXT/master/converter_mockup.jpg)
 
