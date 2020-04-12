@@ -1,6 +1,6 @@
 #include <PS2KeyAdvanced.h>
 
-#define ps_clk 3  // PS CLOCK DATA
+#define ps_clk 2  // PS CLOCK DATA
 #define ps_data 4 // PS DATA PIN
 
 uint16_t c;
@@ -9,7 +9,7 @@ PS2KeyAdvanced keyboard;
 
 unsigned char translationTable [256];
 
-#define xt_clk 2 // XT CLOCK PIN
+#define xt_clk 3 // XT CLOCK PIN
 #define xt_data 5 // XT DATA PIN
 
 void setupTable () {
@@ -241,7 +241,7 @@ void loop()
   
   if (digitalRead(xt_clk) == LOW) // power-on self test
   {
-    delay(10) ;
+    delay(20) ;
     _write(0xAA) ;
   }
 }
