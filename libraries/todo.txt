@@ -1,0 +1,1 @@
+download the two libraries + add kicad libs
