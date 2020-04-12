@@ -17,9 +17,11 @@ Using this piece of gear you'll be able to use a normal PS/2 keyboard on your ol
 
 Made possible by:
 
-PJRC's [ps/2 library](https://www.pjrc.com/teensy/td_libs_PS2Keyboard.html),
+[techpaul's ps/2 advanced library](https://github.com/techpaul/PS2KeyAdvanced)
 
-[djsadeepa's instructables](https://www.instructables.com/id/Connect-PS2-Keyboard-to-Arduino/) 
+[PJRC's ps/2 library](https://www.pjrc.com/teensy/td_libs_PS2Keyboard.html),
+
+[djsadeepa's instructables on interfacing a PS/2 keyboard and an arduino](https://www.instructables.com/id/Connect-PS2-Keyboard-to-Arduino/) 
 
 [Pedro Umbelino Hackaday article on the old PIC solution](https://hackaday.com/2017/01/21/attoxtkeyboard/)
 
