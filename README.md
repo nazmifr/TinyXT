@@ -27,6 +27,7 @@ BOM:
 - Cables/Jumpers if breadboard
 
 # Testing your USB keyboard with PS/2 capabilities (optional)
+![keyboard test arduino](https://raw.githubusercontent.com/nazmifr/TinyXT/master/prototype_ps2_keyboard_tester_serial.jpg)
 
 If you have an USB keyboard, follow this pinout schematic to connect it to the duino/PCB.
 
@@ -52,6 +53,9 @@ Tested on Arduino Nano. Adapt accordingly.
 
 Numlock and Capslock are not implemented on this test script, no worries!
 
+This should be the result:
+![Serial keyboard test arduino](https://raw.githubusercontent.com/nazmifr/TinyXT/master/serial_test.png)
+
 # Arduino prototype
 
 Once you've tested your keyboard, you can take it to the next level: creating a prototype converter. Considering the price of an arduino these days (<5€) this is a perfectly okay solution compared to the converters currently available that cost between 25-30€ for less functionality (the arduino can be reused in another project)
@@ -69,6 +73,7 @@ If you have an USB keyboard, here's the pinout for the converter input:
 If you have a PS/2 mini-din keyboard, here's the pinout for the input (colors are just indicative and may vary if you salvaged a cable):
 
 ![PS/2 Pinout Mini-din 6](https://raw.githubusercontent.com/nazmifr/TinyXT/master/PS2-Pinout.jpg)
+![PS/2 Pinout Minidin cable male](https://raw.githubusercontent.com/nazmifr/TinyXT/master/pinout_ps2_cable_male.gif)
 
 On the motherboard side, please wire accordingly to your connector or cable:
 
