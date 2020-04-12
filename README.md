@@ -2,12 +2,14 @@
 
 Minimal documentation and hardware schematics to build a working tiny PS/2 keyboard converter.
 
-Firmware by: https://github.com/kesrut/pcxtkbd (GPL 2.0 License, see his repo for latest updates, may break the stable and working specific code for Uno, Nano and Tiny)
-
-
 PC -> XT or AT (PS/2 & DIN5)
 
 This project is available as an affordable kit or finished product that ships worldwide: [buy to support my work]()
+
+Firmware by: https://github.com/kesrut/pcxtkbd (GPL 2.0 License, see his repo for latest updates, may break the stable and working specific code for Uno, Nano and Tiny)
+
+# Tested on
+- Amstrad PC5086 (XT Clone)
 
 ![Mockup of the converter](https://raw.githubusercontent.com/nazmifr/TinyXT/master/converter_mockup.jpg)
 
