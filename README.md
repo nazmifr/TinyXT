@@ -10,7 +10,7 @@ This project is available as an affordable kit or finished product that ships wo
 
 Or you can build it yourself! It's not that hard no worries!
 
-Using this piece of gear you'll be able to use a normal PS/2 keyboard on your old machines such as:
+Using this piece of gear you'll be able to use a normal PS/2 or sometimes USB keyboard on your old machines such as:
 
 - Pentium 1 machines 286 / 386 / ...
 - Amstrad PC1512, PC4086, PC5086 
@@ -73,7 +73,15 @@ I strongly advise reusing old connectors for the build as well as avoiding to us
 
 The only con of using an arduino is the power consumption that goes from 5mW to 150mW, it should be fine in most cases but for some really old computers, a more finely engineered setup might be preferable.
 
+# Pins
 
+If you have an USB keyboard, here's the pinout for the converter input:
+
+![]()
+
+If you have a PS/2 mini-din keyboard, here's the pinout for the input (colors are just indicative and may vary if you salvaged a cable):
+
+![]()
 
 # Embedded active converter
 
