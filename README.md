@@ -11,7 +11,7 @@ Firmware by: https://github.com/kesrut/pcxtkbd (GPL 2.0 License, see his repo fo
 # Tested on
 - Amstrad PC5086 (XT Clone)
 
-![Mockup of the converter](https://raw.githubusercontent.com/nazmifr/TinyXT/master/converter_mockup.jpg)
+![Mockup of the converter](https://raw.githubusercontent.com/nazmifr/TinyXT/master/images/converter_mockup.jpg)
 
 Or you can build it yourself! It's not that hard, no worries!
 
@@ -30,7 +30,7 @@ Using this nifty piece of gear you'll be able to use a normal PS/2 or sometimes 
 - Cables/Jumpers if breadboard
 
 # Testing your USB keyboard with PS/2 capabilities (optional)
-![keyboard test arduino](https://raw.githubusercontent.com/nazmifr/TinyXT/master/prototype_ps2_keyboard_tester_serial.jpg)
+![keyboard test arduino](https://raw.githubusercontent.com/nazmifr/TinyXT/master/images/prototype_ps2_keyboard_tester_serial.jpg)
 
 If you have an USB keyboard, follow this pinout schematic to connect it to the duino/PCB.
 
@@ -57,7 +57,7 @@ Tested on Arduino Nano. Adapt accordingly.
 Numlock and Capslock are not implemented on this test script, no worries!
 
 This should be the result:
-![Serial keyboard test arduino](https://raw.githubusercontent.com/nazmifr/TinyXT/master/serial_test.png)
+![Serial keyboard test arduino](https://raw.githubusercontent.com/nazmifr/TinyXT/master/images/serial_test.png)
 
 # Arduino prototype
 
@@ -74,17 +74,17 @@ The only con of using an arduino is the power consumption that jumps from 5mW to
 #### USB
 If you have an USB keyboard, here's the pinout for the converter input:
 
-![USB to PS/2 Pinout](https://raw.githubusercontent.com/nazmifr/TinyXT/master/pinout_usb_PS2_conversion_keyboard.png)
+![USB to PS/2 Pinout](https://raw.githubusercontent.com/nazmifr/TinyXT/master/images/pinout_usb_PS2_conversion_keyboard.png)
 
 #### PS/2 (Mini-Din6)
 If you have a PS/2 mini-din keyboard, here's the pinout for the input (colors are just indicative and may vary if you salvaged a cable):
-![PS/2 Pinout Mini-din 6](https://raw.githubusercontent.com/nazmifr/TinyXT/master/PS2-Pinout.jpg)
-![PS/2 Pinout Minidin cable male](https://raw.githubusercontent.com/nazmifr/TinyXT/master/pinout_ps2_cable_male.gif)
+![PS/2 Pinout Mini-din 6](https://raw.githubusercontent.com/nazmifr/TinyXT/master/images/PS2-Pinout.jpg)
+![PS/2 Pinout Minidin cable male](https://raw.githubusercontent.com/nazmifr/TinyXT/master/images/pinout_ps2_cable_male.gif)
 
 #### XT / AT (DIN 5)
 On the motherboard side, please wire accordingly to your connector or cable either just over here for a mini-din or here for DIN 5 (don't forget to flip depending if you have a male or female connector):
-![](https://raw.githubusercontent.com/nazmifr/TinyXT/master/FEMALE_DIN_5_Keyboard_Connector.png)
-![](https://raw.githubusercontent.com/nazmifr/TinyXT/master/male_din_5_XT_AT_Connector_Keyboard.jpg)
+![](https://raw.githubusercontent.com/nazmifr/TinyXT/master/images/FEMALE_DIN_5_Keyboard_Connector.png)
+![](https://raw.githubusercontent.com/nazmifr/TinyXT/master/images/male_din_5_XT_AT_Connector_Keyboard.jpg)
 
 ### Pins
 The pins can be edited in the code to suit your board!
