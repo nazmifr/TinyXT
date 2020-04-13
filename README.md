@@ -100,7 +100,7 @@ The pins can be edited in the code to suit your board!
 
 Don't forget to install the ```PS2KeyAdvanced``` library and configure your board and serial com port accordingly.
 
-Here's the [code](https://raw.githubusercontent.com/nazmifr/TinyXT/master/tinyxt.ino).
+Here's the [code](https://raw.githubusercontent.com/nazmifr/TinyXT/master/megaxt.ino).
 
 Program your board, THEN ONLY connect the VCC to the 5V that will be coming from the old computer AND disconnect the USB from your modern PC.
 
