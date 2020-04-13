@@ -106,6 +106,10 @@ Program your board, THEN ONLY connect the VCC to the 5V that will be coming from
 
 It's time to try!!! If it doesn't work raise an issue with some details and please investigate and report on your side when it works and when it doesn't and your hypotheses about why it's like that.
 
+When raising an issue, include your arduino platform, version of arduino IDE, brand and model of keyboard (+if you tried the serial tester or not), and machine you're trying to get the converter working on.
+
+the megaxt.ino script is for Arduino Uno or Nano or ProMini328 !
+
 # Embedded active converter
 Coming soon!
 Coming soon!
