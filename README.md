@@ -165,7 +165,7 @@ PS/2 TO A
 
 [kesrut software implementation on Arduino ATMega/ATTiny platform](https://github.com/kesrut/pcxtkbd)
 
-& [Kicad's creators and contributors (CERN)](https://www.kicad-pcb.org/)
+& [Kicad's creators and contributors (CERN)](https://www.kicad.org/)
 
 also thanks to [pinouts.ru](https://pinouts.ru/InputCables/usb_ps2_mouse_pinout.shtml)
 
